@@ -9,7 +9,7 @@ Esta é uma aplicação criada para armazenar repositórios do meu portfólio, q
 ### Rotas da aplicação
 <p align="center">
 POST: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
-  
+<div> 
 <img alt="Post" src=".github/Post.png" width="70%">
 
 <p align="center">
