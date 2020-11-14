@@ -14,22 +14,22 @@ POST: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisiç�
 
 <p align="center">
 GET: Rota que lista todos os repositórios;
-
+<div> 
 <img alt="Get" src=".github/Get.png" width="70%">
 
 <p align="center">
 PUT: A rota deve alterar apenas o `title`, a `url` e as `techs` do repositório que possua o `id` igual ao `id` presente nos parâmetros da rota;
-
+<div> 
 <img alt="Put" src=".github/Put.png" width="70%">
 
 <p align="center">
 DELETE: A rota deve deletar o repositório com o `id` presente nos parâmetros da rota;
-
+<div> 
 <img alt="Delete" src=".github/Delete.png" width="70%">
 
 <p align="center">
 POST: A rota deve aumentar o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
-
+<div> 
 <img alt="Likes" src=".github/Likes.png" width="70%">
 </p>
 
