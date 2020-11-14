@@ -1,5 +1,5 @@
 <img alt="Get" src=".github/gostack header.png" width="100%">
-## 💻 Projeto
+<div>
 
 ## :rocket: Sobre o desafio
 
