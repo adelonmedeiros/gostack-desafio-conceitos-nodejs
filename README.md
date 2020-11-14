@@ -15,7 +15,7 @@ GET: Rota que lista todos os repositórios;
 <img alt="Get" src=".github/Get.png" width="70%">
 
 PUT: A rota deve alterar apenas o `title`, a `url` e as `techs` do repositório que possua o `id` igual ao `id` presente nos parâmetros da rota;
-<img alt="Put" src=".github/Put.png" width="70%">
+<img alt="Put" src=".github/Put.png" width="80%">
 
 DELETE: A rota deve deletar o repositório com o `id` presente nos parâmetros da rota;
 <img alt="Delete" src=".github/Delete.png" width="70%">
