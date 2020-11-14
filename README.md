@@ -8,27 +8,27 @@ Esta é uma aplicação criada para armazenar repositórios do meu portfólio, q
 
 ### Rotas da aplicação
 <p align="left">
-POST: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
+  <b>POST:</b> A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
 <div> 
 <img alt="Post" src=".github/Post.png" width="70%">
 
 <p align="left">
-GET: Rota que lista todos os repositórios;
+  <b>GET:</b> Rota que lista todos os repositórios;
 <div> 
 <img alt="Get" src=".github/Get.png" width="70%">
 
 <p align="left">
-PUT: A rota deve alterar apenas o `title`, a `url` e as `techs` do repositório que possua o `id` igual ao `id` presente nos parâmetros da rota;
+  <b>PUT:</b> A rota deve alterar apenas o `title`, a `url` e as `techs` do repositório que possua o `id` igual ao `id` presente nos parâmetros da rota;
 <div> 
 <img alt="Put" src=".github/Put.png" width="70%">
 
 <p align="left">
-DELETE: A rota deve deletar o repositório com o `id` presente nos parâmetros da rota;
+<b>DELETE:</b> A rota deve deletar o repositório com o `id` presente nos parâmetros da rota;
 <div> 
 <img alt="Delete" src=".github/Delete.png" width="70%">
 
 <p align="left">
-POST: A rota deve aumentar o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
+<b>POST:</b> A rota deve aumentar o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
 <div> 
 <img alt="Likes" src=".github/Likes.png" width="70%">
 </p>
