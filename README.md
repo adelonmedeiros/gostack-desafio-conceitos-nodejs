@@ -1,8 +1,4 @@
 ## 💻 Projeto
-<p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>
-  <a href="#memo-licença">Licença</a>
-</p>
 
 ## :rocket: Sobre o desafio
 
