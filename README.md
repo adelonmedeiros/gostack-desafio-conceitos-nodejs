@@ -1,6 +1,6 @@
 ## 💻 Projeto
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -8,20 +8,24 @@
 
 Nesse desafio, criamos uma aplicação utilizando oque aprendemos até agora no Node.js!
 
-Essa é uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
+Esta é uma aplicação criada para armazenar repositórios do meu portfólio, que permite a criação, listagem, atualização e remoção dos repositórios, e além disso também permite que os repositórios possam receber "likes".
 
 ### Rotas da aplicação
 <p align="center">
 POST: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
-<img alt="Post" src=".github/Post.png" width="100%">
+<img alt="Post" src=".github/Post.png" width="70%">
+  
 GET: Rota que lista todos os repositórios;
-<img alt="Get" src=".github/Get.png" width="100%">
+<img alt="Get" src=".github/Get.png" width="70%">
+
 PUT: A rota deve alterar apenas o `title`, a `url` e as `techs` do repositório que possua o `id` igual ao `id` presente nos parâmetros da rota;
-<img alt="Put" src=".github/Put.png" width="100%">
+<img alt="Put" src=".github/Put.png" width="70%">
+
 DELETE: A rota deve deletar o repositório com o `id` presente nos parâmetros da rota;
-<img alt="Delete" src=".github/Delete.png" width="100%">
+<img alt="Delete" src=".github/Delete.png" width="70%">
+
 POST: A rota deve aumentar o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
-<img alt="Likes" src=".github/Likes.png" width="100%">
+<img alt="Likes" src=".github/Likes.png" width="70%">
 </p>
 
 ### Específicação dos testes
