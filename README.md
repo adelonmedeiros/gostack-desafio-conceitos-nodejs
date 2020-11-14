@@ -4,7 +4,7 @@
 
 Nesse desafio, criamos uma aplicação utilizando oque aprendemos até agora no Node.js!
 
-Esta é uma aplicação criada para armazenar repositórios do meu portfólio, que permite a criação, listagem, atualização e remoção dos repositórios, e além disso também permite que os repositórios possam receber "likes".
+Esta é uma aplicação criada para armazenar repositórios do meu portfólio, permite a criação, listagem, atualização e remoção dos repositórios, e além disso, também permite que os repositórios possam receber "likes".
 
 ### Rotas da aplicação
 <p align="left">
